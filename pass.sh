@@ -1,6 +1,7 @@
 
 #!/bin/bash
 
+function pass () {
 while :
 do
     read -sp "Enter a pass: " pass
@@ -13,3 +14,5 @@ do
         echo "Try again"
     fi
 done
+}
+pass
